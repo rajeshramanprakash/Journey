@@ -1,0 +1,99 @@
+*{
+	margin: 0px; padding: 0px;
+}
+#first{ 
+	
+	background-image: url(../image/fig.jgp);
+	
+
+	/*margin: 0;
+	padding: 0;*/
+	width: 60%;
+	height: 500px;
+	font-family: sans-serif;
+	
+	/*background-size: cover;*/
+	background-position: center;
+   
+}
+.login{
+	height: 90px;
+	width: 90%;
+	background-color: white;
+	padding: 20px;
+
+}
+.logo{
+	width: 200px;
+	height:100px;
+    margin-bottom: 20px;
+	background-image: url(../image/download.png);
+}
+.wrap{
+	position: absolute;
+	width: 43%;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50% -50%);
+}
+.search{
+	width: 100%;
+	position: relative;
+
+}
+.searchterm{
+	float: left;
+	width: 90%;
+	border: 3px solid #ababd9;
+	padding: 11px;
+	font-size: 17px;
+	outline: none;
+	transition: 1s all;
+}
+.searchterm:focus{
+	color: #00b4cc;
+	border: 3px solid #0352fc;
+}
+.searchbtn{
+	position: absolute;
+	width: 50px;
+	height: 48px;
+	border: 1px solid#0352fc;
+	background-color:#0352fc;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+
+}
+.power{
+	height: 80px;
+	width: 80px;
+	background-color: white;
+	float: right;
+	margin-top: 20px;
+}
+
+
+#second{ height: 700px;
+	width: 100%;
+	background-color:yellow;
+
+
+
+}
+#third{ height: 700px;
+	width: 100%;
+	background-color:green; 
+
+}
+#fourth{ height: 700px;
+	width: 100%;
+	background-color: gold;
+
+}
+#fifth{ height: 700px;
+	width: 100%;
+	background-color: red;
+
+}

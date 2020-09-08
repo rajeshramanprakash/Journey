@@ -1,0 +1,178 @@
+*{
+	padding: 0; margin: 0;
+	font-family: 'montserrat',sans-serif;
+}
+body{background-image: url(../image/fig.jpg);}
+#wrapper{
+padding: 10px;
+
+}
+#header{height: 110px;
+
+padding: 10px;
+}
+
+
+#logo{
+	width: 180px;
+	height: 110px;
+	background-image: url(../image/download.png);
+	float: left;
+}
+
+.wrap{
+	position: absolute;
+	width: 43%;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50% -50%);
+}
+.search{
+	width: 100%;
+	position: relative;
+
+}
+.searchterm{
+	float: left;
+	width: 75%;
+	border: 3px solid #ababd9;
+	padding: 11px;
+	font-size: 17px;
+	outline: none;
+	transition: 1s all;
+}
+.searchterm:focus{
+	color: #00b4cc;
+	border: 3px solid #0352fc;
+}
+.searchbtn{
+	position: absolute;
+	width: 50px;
+	height: 48px;
+	border: 1px solid#0352fc;
+	background-color:#0352fc;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	}
+
+#login{
+	width: 150px;
+	height: 110px;
+	background-color:white;
+	float: right;
+	
+}
+#navbar{
+	height: 80px;
+	background-color: green;
+	margin-top: 10px;
+}
+#more{
+	height:550px;
+	width: 100%;
+    background-image: url(../image/benzgm.jpg);
+    background-repeat: no-repeat;
+}
+.cont{
+
+height: 400px;
+float: unset; 
+width: 40%;
+	
+	
+	
+	float: left;	
+}
+.cont p{
+
+	margin: 10%;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+
+
+}
+.cont p i {
+	float: left;
+}
+.cont i{
+	margin-right: 10px;
+	float:right;
+}
+#container{
+	
+	margin-top: 10px;
+}
+#container::after{
+	content: "";display: block; clear: both;
+
+}
+#left{
+	width: 30%;
+	height: 750px;
+	
+	float: left;
+	padding: 30px;
+
+
+}
+.box{
+	position: relative;
+	width: 375px;
+	height: 250px;
+	overflow: hidden;
+	transition: 0.5s;
+}
+.box:hover
+{
+	z-index: 1;
+	transform: scale(1.25);
+    box-shadow: 0.25px 40px rgba(0,0,0,.5);
+}
+
+
+
+#right{
+	width: 60%;
+	height: 710px;
+	position: relative;
+	float: right;
+	margin-right: 50px;
+	margin-top: 55px;
+	
+	font-family: sans-serif;
+	
+	background-size: cover;
+	
+  
+
+   background-color: white;
+	
+	opacity:0.7;
+
+}
+.Train{
+   	
+	font-weight: bold;
+	font-size: 50px;
+	color: black;
+	text-align: center;
+	
+  margin-top: 30%;
+ 
+	
+
+ 
+}
+
+.headig{
+	color: red;
+	position: absolute;
+	top: 50%;
+	width:100;
+	text-align: center;
+
+}
